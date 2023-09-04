@@ -1,0 +1,22 @@
+You have 100 records of data provided from the input. Each record consists of three fields:
+name age identifier
+
+where name is a string of characters of length not more than 100, and age and idenfier are two numbers
+between 0 and 1000000.
+
+Write the program writing to the output the sorted list of records. You must
+implement one of the sorting algorithms: SelectionSort or BubbleSort.
+Sorting should be done in the following way: 
+first sort by age in the non-decreasing order, and in the case of the same age sort by identifier in the nondecreasing order. 
+You may assume that each identifier is unique.
+Example Input (4 records in the example, instead of 100):
+Giorgi 25 1001
+Frank 35 1005
+Olaf 25 1000
+Pio 35 1002
+
+Example Output:
+Olaf 25 1000
+Giorgi 25 1001
+Pio 35 1002
+Frank 35 1005
